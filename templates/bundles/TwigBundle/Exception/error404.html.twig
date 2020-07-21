@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Page non trouvée. Vous cherchez votre chemin</h1>
+        <p>Désolé, nous n'avons pas trouvé cette page.
+        Un vaste choix d'annonces vous attend sur la page d'acceuil.</p>
+
+        <a href="{{ path('home') }}" class="btn btn-primary">YesWeekend acceuil !</a>
+        <a href="{{ path('ads_index') }}" class="btn btn-success">Nos annonces</a>
+    </div>
+
+{% endblock %}

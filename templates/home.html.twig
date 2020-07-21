@@ -1,0 +1,157 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}
+    Bienvenue sur LE site de City-trip !
+{% endblock %}
+
+{% block body %} 
+
+<div class="header bg py-2 text-center">
+        <div class="row pb-4">
+            <div class="col-8 text-right">
+                <h1></h1>
+            </div>
+            <div class="col-8 text-right">
+            </div>
+        </div>
+     <h1> Les vacances sont encore loin ?</h1>
+</div>
+
+
+
+ 
+        
+<div class="fond">
+    <div class="text">
+        <h1 class="display-md-3">Bienvenue sur YesWeekend !</h1>
+
+        
+        <p class="lead">Nous mettons en relation les voyageurs et les propriétaires qui veulent profiter d'opportunités et gagner de l'argent</p>
+        <hr class="my-8">
+        <br>
+        <p class="lead">
+    
+        <div class="ad-button">
+            <a href="{{ path('ads_index') }}" class="btn btn-primary btn-lg" style="width: 600px" role="button">Vous êtes voyageur ? Vous voulez voir ou vous pourrez loger
+            pour votre prochain city-trip ? Voir nos annonces !</a>
+        </div>
+        </p>
+ </div>
+            
+
+            
+    
+</div>
+    
+
+
+<div class="container">
+    
+    <h2 class="h1 my-5">Nos destinations Stars !</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-light mb-3">  
+                <div class="card-header text-center">
+                    3 chambres, <strong>150 €/nuit</strong> <br>
+                    <small> pas encore noté</small>
+                </div> 
+                <img src="http://www.sunoversea.net/wp-content/uploads/WPL/531/thimg_MUNA_Vista-terraza-vivienda-1000x666_1120x800.jpg" alt="Image de l'appart"
+                style="height: 200px; width: 100%; display: block"> 
+
+                <div class="card-body">
+                <h4 class="card-title">
+                    Demeure contemporaine en Sicile
+                
+                </h4>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, numquam. Reprehenderit non doloremque recusandae voluptas nostrum nisi quis nobis impedit.
+                </p>
+                <a href="{{ path('ads_index') }}" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light mb-3">  
+                <div class="card-header text-center">
+                    3 chambres, <strong>200 €/nuit</strong> <br>
+                    <small> pas encore noté</small>
+                </div> 
+                <img src="https://www.costas-casas.fr/db/huizen/1450029781124476_006.jpg" alt="Image de l'appart"
+                style="height: 200px; width: 100%; display: block"> 
+
+                <div class="card-body">
+                <h4 class="card-title">
+                Villa sur les hauteurs de Barcelone
+                </h4>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, numquam. Reprehenderit non doloremque recusandae voluptas nostrum nisi quis nobis impedit.
+                </p>
+                <a href="{{ path('ads_index') }}" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light mb-3">  
+                <div class="card-header text-center">
+                    3 chambres, <strong>150 €/nuit</strong> <br>
+                    <small> pas encore noté</small>
+                </div> 
+                <img src="https://www.realista.com/wp-content/uploads/2017/05/New-project-villa-for-sale_El-Mirador-del-Paraiso_Benahavis_Realista-Quality-Properties-Marbella-7.jpg" alt="Image de l'appart"
+                style="height: 200px; width: 100%; display: block"> 
+
+                <div class="card-body">
+                <h4 class="card-title">
+                Propriété d'architecte en Croatie
+                </h4>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, numquam. Reprehenderit non doloremque recusandae voluptas nostrum nisi quis nobis impedit.
+                </p>
+                <a href="{{ path('ads_index') }}" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h2 class="h1 my-5">Nos propriétaires stars !</h2>
+    
+
+    <div class="row">
+        <div class="col">
+            <div class="card bg-light border-secondary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Maverick</h4>
+                    
+                    <hr>
+
+                    <div class="card-text">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg" alt="Avatar" class="float-left mr-3 avatar avatar">
+                    <p>Visiting Paris was my dream after filming "Mission : impossible". Thank you Yesweekend ! </p>
+                    <a href="{{ path('ads_index') }}" class="btn btn-primary">En savoir plus !</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="col">
+            <div class="card bg-light border-secondary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">J.LO</h4>
+                    
+                    <hr>
+
+                    <div class="card-text">
+                    <img src="https://mui.today/__export/1583284132743/sites/mui/img/2020/03/03/jennifer-lopez-jan-2020-billboard-a-1548.jpg_345486724.jpg" alt="Avatar" class="float-left mr-3 avatar avatar">
+                    <p>Thanks a lot ! I love visit Europe and always find what i wanna do with you...</p>
+                    <a href="#" class="btn btn-primary">En savoir plus !</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

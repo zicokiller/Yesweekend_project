@@ -1,0 +1,159 @@
+body {
+    background-color: #DCDCDC;
+}
+
+div.container {
+    margin-top: 20px;
+}
+
+div.ad-title {
+    padding: 2em;
+    background-size: cover;
+    background-position: center, center;
+}
+
+div.ad-title h1,
+div.ad-title p {
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.ad-title .btn {
+    margin-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+div.carousel-caption {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 50%;
+}
+
+.avatar-medium {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.avatar-mini {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.avatar-micro {
+    max-width: 26px;
+    max-height: 26px;
+}
+
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover {
+    color: firebrick !important;
+}
+
+span.rating i {
+    color: rgb(70, 221, 163);
+}
+
+.alert a {
+    text-decoration: none;
+}
+
+.alert .btn {
+    color: white;
+    margin-top: 1em;
+}
+
+.fond {
+    background: url(https://cdn.pixabay.com/photo/2016/08/04/17/51/holiday-1569608_1280.jpg) no-repeat center center;
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    margin-bottom: 150px;
+    height: 500px;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+}
+
+.display-md-3 {
+    padding-top: 10px;
+    font-size: 70px;
+    text-shadow: yellow 0.3em 0.3em 0.3em;
+
+}
+
+.ad-button {
+    padding-top: 325px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.container {
+    background-color: #fff;
+}
+
+
+
+.container-1 .h2 {
+    color: #fff;
+
+}
+
+.lead {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.fb-share-button {
+    margin-bottom: 20px;
+}
+
+.ad-title {
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    min-height: 70vh;
+    background-image: url(https://media.istockphoto.com/photos/one-blue-paper-plane-leading-group-of-white-ones-picture-id1134238798?b=1&k=6&m=1134238798&s=170667a&w=0&h=No02V_Swxj6RuRYUgHQdgW-7fP0K3hBRwrKKTbOiWVY=);
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #222 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}

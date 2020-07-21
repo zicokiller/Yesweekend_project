@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>YesWeekend - {% block title %}Welcome!{% endblock %}</title>
+
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/e3f1f5a88d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/app.css">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% include 'partials/header.html.twig'%}
+
+        {% block body %}{% endblock %}
+
+         {% include 'partials/footer.html.twig'%}
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
